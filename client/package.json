@@ -1,0 +1,19 @@
+{
+  "name": "im-client",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Uni-app IM 即时通讯客户端",
+  "scripts": {
+    "dev:h5": "uni",
+    "build:h5": "uni build",
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:mp-weixin": "uni build -p mp-weixin"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.8",
+    "@dcloudio/uni-app": "^3.0.0",
+    "@dcloudio/uni-cli-shared": "^3.0.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.0"
+  }
+}
